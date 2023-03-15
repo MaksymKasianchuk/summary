@@ -1,0 +1,303 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1001px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .wrapper {
+      display: flex;
+      max-width: 1200px;
+    }
+    .sidebar {
+      width: 370px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .my-photo {
+      width: 370px;
+    }
+    .contacts-container {
+      margin-top: 60px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .tech-skills-container {
+      margin-left: 40px;
+      margin-top: 55px;
+      margin-right: 40px;
+    }
+    .tech-skills-title {
+      margin-bottom: 20px;
+    }
+    .soft-skills-container {
+      margin-left: 40px;
+      margin-top: 55px;
+      margin-right: 40px;
+    }
+    .soft-skills-title {
+      margin-bottom: 20px;
+    }
+    .about-me-container {
+      padding-left: 90px;
+      padding-right: 90px;
+      padding-top: 110px;
+      padding-bottom: 110px;
+    }
+    .about-me-main-info {
+      margin-bottom: 65px;
+    }
+    .main-info-profession {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+    .main-info-name {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 89px;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 900px) and (max-width: 1000px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .wrapper {
+      display: flex;
+      max-width: 1200px;
+    }
+    .sidebar {
+      width: 370px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .my-photo {
+      width: 370px;
+    }
+    .contacts-container {
+      margin-top: 60px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .tech-skills-container {
+      margin-left: 40px;
+      margin-top: 55px;
+      margin-right: 40px;
+    }
+    .tech-skills-title {
+      margin-bottom: 20px;
+    }
+    .soft-skills-container {
+      margin-left: 40px;
+      margin-top: 55px;
+      margin-right: 40px;
+    }
+    .soft-skills-title {
+      margin-bottom: 20px;
+    }
+    .about-me-container {
+      padding-left: 90px;
+      padding-right: 90px;
+      padding-top: 110px;
+      padding-bottom: 110px;
+    }
+    .about-me-main-info {
+      margin-bottom: 65px;
+    }
+    .main-info-profession {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+    .main-info-name {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 89px;
+    }
+    .projects-link-dots {
+      display: none;
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 899px) {
+    .my-photo {
+      width: 370px;
+      margin-left: 140px;
+      margin-right: 140px;
+      margin-top: 10px;
+    }
+    .contacts-container {
+      margin-top: 30px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+    .sidebar {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+    .tech-skills-container {
+      margin-top: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+    .tech-skills-title {
+      margin-bottom: 15px;
+    }
+    .soft-skills-container {
+      margin-top: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+    .soft-skills-title {
+      margin-bottom: 15px;
+    }
+    .about-me-container {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .about-me-main-info {
+      margin-bottom: 65px;
+    }
+    .main-info-profession {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+    .main-info-name {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 89px;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width: 321px) and (max-width: 600px) {
+    .my-photo {
+      width: 270px;
+      margin-left: 40px;
+    }
+  
+    .contacts-container {
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .sidebar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin: 0 auto;
+    }
+    .tech-skills-container {
+      margin-left: 40px;
+      margin-top: 20px;
+      margin-right: 40px;
+    }
+    .tech-skills-title {
+      margin-bottom: 10px;
+    }
+    .soft-skills-container {
+      margin-left: 40px;
+      margin-top: 20px;
+      margin-right: 40px;
+    }
+    .soft-skills-title {
+      margin-bottom: 10px;
+    }
+    .about-me-container {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .about-me-main-info {
+      margin-bottom: 20px;
+    }
+    .main-info-profession {
+      margin-left: 20px;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+    .main-info-name {
+      margin-left: 20px;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 40px;
+    }
+    .projects-link-dots {
+      display: none;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width: 320px) {
+    .my-photo {
+      width: 270px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .contacts-container {
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .sidebar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin: 0 auto;
+    }
+    .tech-skills-container {
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .tech-skills-title {
+      margin-bottom: 10px;
+    }
+    .soft-skills-container {
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .soft-skills-title {
+      margin-bottom: 10px;
+    }
+    .about-me-container {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .about-me-main-info {
+      margin-bottom: 20px;
+    }
+    .main-info-profession {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+    .main-info-name {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 40px;
+    }
+    .projects-link-dots {
+      display: none;
+    }
+  }
+  
