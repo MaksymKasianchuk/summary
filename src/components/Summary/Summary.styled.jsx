@@ -12,3 +12,12 @@ export const Sidebar = styled.aside`
 `;
 
 export const MainContent = styled.div``;
+
+
+export const SidebarTitle = styled.h3`
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+`;

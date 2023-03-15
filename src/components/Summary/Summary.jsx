@@ -1,16 +1,19 @@
-import ContactsList from 'components/ContactsList';
+import myPhoto from 'img/me.jpg';
 import { Wrapper, Sidebar, MainContent } from './Summary.styled';
+import ContactsList from 'components/ContactsList';
+import SkilsList from 'components/SkilsList/SkilsList';
 
 const Summary = () => {
     return (
        <Wrapper>
             <Sidebar>
-                {/* contacts */}
+                <img width="370" height="460" src={myPhoto} alt="my selfie" />
+                
                 <ContactsList />
-                {/* tech skills */}
 
-                {/* soft skills */}
+                <SkilsList title="Tech Skills" list={[{name: 'HTML', id: 't1'}]} />
 
+                <SkilsList title="Soft Skills" list={[{name: 'Scrum', id: 's1'}]} />
             </Sidebar>
             
             <MainContent>

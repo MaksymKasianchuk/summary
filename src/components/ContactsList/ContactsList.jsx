@@ -1,4 +1,5 @@
-import { ContactsWrapper, SidebarTitle, ContactItem } from './ContactsList.styled';
+import { ContactsWrapper, ContactItem } from './ContactsList.styled';
+import { SidebarTitle } from 'components/Summary/Summary.styled';
 
 const ContactsList = () => {
     return (
