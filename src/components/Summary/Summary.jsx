@@ -8,6 +8,11 @@ import {
     ProjectsList,
     Education 
 } from 'components';
+import {
+    techSkils,
+    softSkils
+} from 'constants/data';
+
 
 const Summary = () => {
     return (
@@ -19,12 +24,12 @@ const Summary = () => {
 
                 <SkilsList 
                     title="Tech Skills" 
-                    list={[{name: 'HTML', id: 't1'}]} 
+                    list={techSkils} 
                 />
 
                 <SkilsList 
                     title="Soft Skills" 
-                    list={[{name: 'Scrum', id: 's1'}]} 
+                    list={softSkils} 
                 />
             </Sidebar>
             

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 
 export const Sidebar = styled.aside`
     background: #1e2939;
-    padding: 0 0 30px 0;
+    padding: 0 0 60px 0;
 `;
 
 export const MainContent = styled.div`
