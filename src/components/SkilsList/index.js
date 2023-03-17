@@ -1,1 +1,1 @@
-export { default } from './SkilsList';
+export { SkilsList } from './SkilsList';

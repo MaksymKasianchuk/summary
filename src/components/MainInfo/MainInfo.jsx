@@ -1,6 +1,6 @@
 import { MainInfoWrap } from './MainInfo.styled';
 
-const MainInfo = ({profession, name, aboutMe}) => {
+export const MainInfo = ({profession, name, aboutMe}) => {
     return (
         <MainInfoWrap>
             <span>{profession}</span>
@@ -11,5 +11,3 @@ const MainInfo = ({profession, name, aboutMe}) => {
         </MainInfoWrap>
     )
 }
-
-export default MainInfo;

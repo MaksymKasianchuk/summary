@@ -1,9 +1,13 @@
 import myPhoto from 'img/me.jpg';
 import { Wrapper, Sidebar, MainContent } from './Summary.styled';
-import ContactsList from 'components/ContactsList';
-import SkilsList from 'components/SkilsList';
-import MainInfo from 'components/MainInfo';
-import ProjectsList from 'components/ProjectsList';
+import { 
+    Experience, 
+    ContactsList,
+    SkilsList,
+    MainInfo,
+    ProjectsList,
+    Education 
+} from 'components';
 
 const Summary = () => {
     return (
@@ -44,8 +48,29 @@ const Summary = () => {
                     ]}
                 />
                 {/* work expirience */}
-
+                <Experience
+                    title="Work Experience" 
+                    position={'position'} 
+                    company={'company'} 
+                    period={'period'} 
+                    country={'country'} 
+                    duties={[
+                        {
+                            id: 'd1',
+                            text: 'txt'
+                        }
+                    ]} 
+                    description={'description'}
+                />
                 {/* education */}
+                <Education  title={'Education'} educationList={[
+                    {
+                        id: 'ed1',
+                        place: 'VNTU',
+                        specialty: 'Dibil',
+                        period: 'Dovgo',
+                    }
+                ]}/>
             </MainContent>
         </Wrapper>
     );

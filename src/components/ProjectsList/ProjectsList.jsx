@@ -1,7 +1,7 @@
 import { ProjectsWrapper, ProjectsItem } from './ProjectsList.styled';
 import { ContentTitle } from 'components/Summary/Summary.styled';
 
-const ProjectsList = ({ title, projects }) => {
+export const ProjectsList = ({ title, projects }) => {
     return (
         <ProjectsWrapper>
             {
@@ -22,5 +22,3 @@ const ProjectsList = ({ title, projects }) => {
         </ProjectsWrapper>
     )
 }
-
-export default ProjectsList;

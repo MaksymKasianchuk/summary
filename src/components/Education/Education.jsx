@@ -1,7 +1,7 @@
 import { EducationWrap, EducationItem } from './Education.styled';
 import { ContentTitle } from "components/Summary/Summary.styled";
 
-const Education = ({ title, educationList }) => {
+export const Education = ({ title, educationList }) => {
     return (
         <EducationWrap>
             {
@@ -9,8 +9,8 @@ const Education = ({ title, educationList }) => {
                 <ContentTitle>{title}</ContentTitle>
             }
             {  
-                educationList.map(({ place, specialty, period }) => (
-                    <EducationItem>
+                educationList.map(({ id, place, specialty, period }) => (
+                    <EducationItem key={id}>
                         <h3>{ place }</h3>
                         <p>{ specialty }</p>
                         <span>{ period }</span>
@@ -20,5 +20,3 @@ const Education = ({ title, educationList }) => {
         </EducationWrap>
     )
 }
-
-export default Education

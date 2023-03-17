@@ -1,7 +1,7 @@
 import { SkilsListWrapp, SkilsListItem } from './SkilsList.styled'
 import { SidebarTitle } from 'components/Summary/Summary.styled';
 
-const SkilsList = ({ title, list }) => {
+export const SkilsList = ({ title, list }) => {
     return (
         <SkilsListWrapp>
             <SidebarTitle>{title}</SidebarTitle>
@@ -15,5 +15,3 @@ const SkilsList = ({ title, list }) => {
         </SkilsListWrapp>
     );
 }
-
-export default SkilsList;
