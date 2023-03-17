@@ -1,7 +1,9 @@
 import myPhoto from 'img/me.jpg';
 import { Wrapper, Sidebar, MainContent } from './Summary.styled';
 import ContactsList from 'components/ContactsList';
-import SkilsList from 'components/SkilsList/SkilsList';
+import SkilsList from 'components/SkilsList';
+import MainInfo from 'components/MainInfo';
+import ProjectsList from 'components/ProjectsList';
 
 const Summary = () => {
     return (
@@ -11,16 +13,36 @@ const Summary = () => {
                 
                 <ContactsList />
 
-                <SkilsList title="Tech Skills" list={[{name: 'HTML', id: 't1'}]} />
+                <SkilsList 
+                    title="Tech Skills" 
+                    list={[{name: 'HTML', id: 't1'}]} 
+                />
 
-                <SkilsList title="Soft Skills" list={[{name: 'Scrum', id: 's1'}]} />
+                <SkilsList 
+                    title="Soft Skills" 
+                    list={[{name: 'Scrum', id: 's1'}]} 
+                />
             </Sidebar>
             
             <MainContent>
                 {/* about me main info */}
+                <MainInfo 
+                    profession={'profession'} 
+                    name={'name'} 
+                    aboutMe={'aboutMe'} 
+                />
 
                 {/* projects container */}
-
+                <ProjectsList 
+                    title="Projects"
+                    projects={[
+                        {
+                            id: 'p1',
+                            link: '#',
+                            stack: 'HTML, CSS',
+                        }
+                    ]}
+                />
                 {/* work expirience */}
 
                 {/* education */}

@@ -21,3 +21,11 @@ export const SidebarTitle = styled.h3`
     line-height: 24px;
     color: #fff;
 `;
+
+
+export const ContentTitle = styled.h2`
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+`;
