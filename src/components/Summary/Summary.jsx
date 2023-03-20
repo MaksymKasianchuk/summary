@@ -10,7 +10,19 @@ import {
 } from 'components';
 import {
     techSkils,
-    softSkils
+    softSkils,
+    profession,
+    name,
+    aboutMe,
+    comProjects,
+    educProjects,
+    company,
+    period,
+    position,
+    country,
+    duties,
+    description,
+    educationList,
 } from 'constants/data';
 
 
@@ -24,58 +36,44 @@ const Summary = () => {
 
                 <SkilsList 
                     title="Tech Skills" 
-                    list={techSkils} 
+                    list={ techSkils } 
                 />
 
                 <SkilsList 
                     title="Soft Skills" 
-                    list={softSkils} 
+                    list={ softSkils } 
                 />
             </Sidebar>
             
             <MainContent>
                 {/* about me main info */}
                 <MainInfo 
-                    profession={'profession'} 
-                    name={'name'} 
-                    aboutMe={'aboutMe'} 
+                    profession={ profession } 
+                    name={ name } 
+                    aboutMe={ aboutMe } 
                 />
 
                 {/* projects container */}
                 <ProjectsList 
-                    title="Projects"
-                    projects={[
-                        {
-                            id: 'p1',
-                            link: '#',
-                            stack: 'HTML, CSS',
-                        }
-                    ]}
+                    title="Commercial Projects"
+                    projects={ comProjects }
+                />
+                <ProjectsList 
+                    title="Educational Projects"
+                    projects={ educProjects }
                 />
                 {/* work expirience */}
                 <Experience
                     title="Work Experience" 
-                    position={'position'} 
-                    company={'company'} 
-                    period={'period'} 
-                    country={'country'} 
-                    duties={[
-                        {
-                            id: 'd1',
-                            text: 'txt'
-                        }
-                    ]} 
-                    description={'description'}
+                    position={ position } 
+                    company={ company } 
+                    period={ period } 
+                    country={ country } 
+                    duties={ duties } 
+                    description={ description }
                 />
                 {/* education */}
-                <Education  title={'Education'} educationList={[
-                    {
-                        id: 'ed1',
-                        place: 'VNTU',
-                        specialty: 'Dibil',
-                        period: 'Dovgo',
-                    }
-                ]}/>
+                <Education  title={'Education'} educationList={ educationList }/>
             </MainContent>
         </Wrapper>
     );

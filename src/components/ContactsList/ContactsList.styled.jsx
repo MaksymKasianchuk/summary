@@ -6,6 +6,7 @@ export const ContactsWrapper = styled.div`
 `;
 
 export const ContactItem = styled.div`
+    margin-top: 10px;
     &>span{
         color: #ffffff;
         font-size: 16px;
@@ -16,10 +17,10 @@ export const ContactItem = styled.div`
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        color: #656d78;
+        color: #ebebeb;
         transition: all 250ms linear;
         &:hover{
-            opacyty: 0.8;
+            opacity: 0.6;
         }
     }
 `;

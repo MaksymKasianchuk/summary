@@ -19,7 +19,7 @@ export const ProfTitle = styled.h3`
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    margin: 10px 0 15px 0;
+    margin: 10px 0;
 `;
 
 export const ProfCompany = styled.span`

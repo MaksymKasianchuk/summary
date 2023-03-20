@@ -10,13 +10,13 @@ export const EducationItem = styled.div`
         font-size: 18px;
         font-weight: 700;
         line-height: 24px;
-        margin: 20px 0 15px 0;
+        margin: 20px 0 10px 0;
     }
     &>p{
         line-height: 24px;
         font-size: 16px;
         font-weight: 700;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
     }
     &>span{
         color: #595959;

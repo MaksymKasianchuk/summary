@@ -12,9 +12,11 @@ export const ProjectsList = ({ title, projects }) => {
                 {
                     projects.map((item) => (
                         <ProjectsItem key={item.id}>
-                            <a href={item.link}>{item.link}</a>
-                            <span className='dots'></span>
-                            <span><b>[</b> <span className="tech-stack">{item.stack}</span> <b>]</b></span>
+                            <div>
+                                <a href={item.linkUrl}>{item.linkName}</a>
+                                <span className='dots'></span>
+                                <span><b>[</b> <span className="tech-stack">{item.stack}</span> <b>]</b></span>
+                            </div>
                         </ProjectsItem>
                     ))
                 }

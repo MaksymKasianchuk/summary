@@ -17,7 +17,7 @@ export const Sidebar = styled.aside`
 `;
 
 export const MainContent = styled.div`
-    padding: 110px 90px;
+    padding: 90px;
 `;
 
 
@@ -35,4 +35,5 @@ export const ContentTitle = styled.h2`
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 10px;
+    margin-top: 40px;
 `;
