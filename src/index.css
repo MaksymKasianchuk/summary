@@ -4,7 +4,12 @@ body {
   margin: 0;
   background-color: #f5f7fa;
   font-family: 'Montserrat', sans-serif;
-  padding: 60px 30px;
+  padding: 80px 40px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding: 40px 20px;
+  }
 }
 h1, h2, h3, h4, p{
   margin: 0;

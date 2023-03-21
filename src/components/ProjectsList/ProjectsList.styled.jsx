@@ -11,22 +11,23 @@ export const ProjectsItem = styled.li`
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    color: #000000;
+    color: ${props => props.theme.colors.textColor};
     margin: 5px 0 0 17px;
     &>div{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
     & a{
-        color: #595959;
+        color: ${props => props.theme.colors.accentColor};
         font-size: 16px;
         font-weight: 700;
         line-height: 24px;
         text-decoration: underline;
         transition: all 250ms linear;
         &:hover{
-            color: #595959;
+            color: ${props => props.theme.colors.accentColor};
             opacity: 0.6;
         }
     }
@@ -34,12 +35,15 @@ export const ProjectsItem = styled.li`
         display: inline-block;
         flex-grow: 2;
         margin: 0 10px;
-        border-bottom: dotted 1px #000000;
+        border-bottom: dotted 1px ${props => props.theme.colors.textColor};
     }
     & .tech-stack{
-        color: #595959;
+        color: ${props => props.theme.colors.lightText};
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
+    }
+    @media screen and (max-width: 768px) {
+        margin: 20px 0 0 17px;
     }
 `;

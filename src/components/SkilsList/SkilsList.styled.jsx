@@ -7,15 +7,21 @@ export const SkilsListWrapp = styled.div`
         padding: 0;
         margin: 0;
     }
+    @media screen and (max-width: 768px) {
+        margin-top: 30px;
+        & ul{
+            list-style: none;
+        }
+    }
 `;
 
 export const SkilsListItem = styled.li`
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #ff6b08;
+    color: ${props => props.theme.colors.accentColor};
     margin-left: 15px;
     &>span{
-        color: #d5d7da;
+        color: ${props => props.theme.colors.whiteText};
     }
 `;
