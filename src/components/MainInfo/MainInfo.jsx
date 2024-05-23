@@ -5,9 +5,12 @@ export const MainInfo = ({profession, name, aboutMe}) => {
         <MainInfoWrap>
             <span>{profession}</span>
             <h1>{name}</h1>
-            <p>
-                {aboutMe}
-            </p>
+           
+            {aboutMe.map(({id, txt}) => (
+                <p key={id}>
+                    {txt}
+                </p>
+            ))}
         </MainInfoWrap>
     )
 }

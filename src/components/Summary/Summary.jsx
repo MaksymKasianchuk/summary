@@ -1,4 +1,4 @@
-import myPhoto from 'img/me.jpg';
+import myPhoto from 'img/me.webp';
 import { Wrapper, Sidebar, MainContent } from './Summary.styled';
 import { 
     Experience, 
@@ -16,12 +16,8 @@ import {
     aboutMe,
     comProjects,
     educProjects,
-    company,
-    period,
-    position,
-    country,
-    duties,
-    description,
+    expirience1,
+    expirience2,
     educationList,
 } from 'constants/data';
 
@@ -65,13 +61,23 @@ const Summary = () => {
                 {/* work expirience */}
                 <Experience
                     title="Work Experience" 
-                    position={ position } 
-                    company={ company } 
-                    period={ period } 
-                    country={ country } 
-                    duties={ duties } 
-                    description={ description }
+                    position={ expirience2.position } 
+                    company={ expirience2.company } 
+                    period={ expirience2.period } 
+                    country={ expirience2.country } 
+                    duties={ expirience2.duties } 
+                    description={ expirience2.description }
                 />
+                <Experience
+                    title=""
+                    position={ expirience1.position } 
+                    company={ expirience1.company } 
+                    period={ expirience1.period } 
+                    country={ expirience1.country } 
+                    duties={ expirience1.duties } 
+                    description={ expirience1.description }
+                />
+               
                 {/* education */}
                 <Education  title={'Education'} educationList={ educationList }/>
             </MainContent>

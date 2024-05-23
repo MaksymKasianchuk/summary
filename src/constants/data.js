@@ -31,34 +31,35 @@ export const profession = 'Front-end engineer';
 
 export const name = 'Kasianchuk Maksym';
 
-export const aboutMe = 'Hi, my name is Max, I\'m 22. I\'ve been working in web development indstry for two years at Hostpro company. In this position, I work with such technologies as CMS WordPress, php and jQuery. I have always wanted to develop my skills of web-developer, and for that I chose the React Front-end technology stack. I believe that this stack is quite progressive and convenient to work with. Now I\'m familiar with React.js with TypeScript and have started learning React Native. Yes, I have commercial web development experience, but not with React yet. While studying at the React Front-end course, I got acquainted with such technologies as React, Redux Toolkit, RTK Query and Async Thunk and TypeScript. I developed the MovieLib site for finding trending movies, which I always use when I want to find an interesting movie for the evening :) I really enjoy developing applications on React, I am delighted with the flexibility and possibilities that this technology provides. My hobbies: Longboarding, reading, videogames, gym and movies. I hope that I can become a reliable part of your company!😉';
-
-export const company = 'Hostpro';
-export const country = 'Ukraine';
-export const position = 'Frontend Web Developer';
-export const period = 'From April 19, 2021 up to now';
-export const duties = [
+export const aboutMe = [
     {
-        id: 'd1',
-        text: 'Support of existing projects'
+        id: 'p1',
+        txt: `A little info about me. I am 24 years old, I have been working at Hostpro company for three years as a front-end developer. During this time, I managed to significantly improve the company\'s commercial sites. I took part in the development of many useful features that not only added useful functionality for customers, but also gave our company advantages over competitors.`, 
     },
     {
-        id: 'd2',
-        text: 'Development of new projects'
+        id: 'p2',
+        txt: `Since 2023, I have also been working at the Glivera Team company as a Frontend WordPress Developer in part-time mode. In this position, I work with a team of developers where we implement websites of foreign companies based on WordPress. Our work helps developing businesses to get their own website to advertise and sell their services. As you know, a convenient and pleasant website is the face of business.`, 
     },
     {
-        id: 'd3',
-        text: 'Creation of promotional interactive pages'
+        id: 'p3',
+        txt: `It is worth noting that I got acquainted with React, Redux Toolkit, RTK Query and Async Thunk and TypeScript, React Native, Jest technologies at GoIT training courses and at the moment I am interested in finding a job as a Frontend React Developer.`, 
+    },
+    {
+        id: 'p4',
+        txt: `As for my hobbies: I love hiking in the mountains and nature, I love fishing, longboarding, 3D modeling and radio engineering.`, 
+    },
+    {
+        id: 'p5',
+        txt: `I am glad that you are viewing my resume) Glory to Ukraine!`, 
     },
 ];
-export const description = '';
 
 export const educationList = [
     {
         id: 'ed1',
         place: 'GoIT',
         specialty: 'Online course of Front-end React developer',
-        period: 'January 2023, up to now',
+        period: 'January - March 2023',
     },
     {
         id: 'ed2',
@@ -105,6 +106,32 @@ export const comProjects = [
         linkName: 'Myhostexpert',
         stack: 'HTML5, SCSS, PHP, jQuery',
     },
+    {
+        id: 'pcom6',
+        linkUrl: 'https://dpay.glivera.com/',
+        linkName: 'Dpay',
+        stack: 'Pug, SCSS, WordPress, PHP, JS',
+    },
+    {
+        id: 'pcom7',
+        linkUrl: 'https://ncube.glivera.com/',
+        linkName: 'Ncube',
+        stack: 'Pug, SCSS, WordPress, PHP, JS',
+    },
+    {
+        id: 'pcom8',
+        linkUrl: 'https://bigstart.glivera.com/',
+        linkName: 'Bigstart',
+        stack: 'Pug, SCSS, WordPress, PHP, JS',
+    },
+    {
+        id: 'pcom9',
+        linkUrl: 'https://masterintegrator.ch/',
+        linkName: 'Master Integrator',
+        stack: 'Pug, SCSS, WordPress, PHP, JS',
+    },
+
+
 ]; 
 
 export const educProjects = [
@@ -127,3 +154,51 @@ export const educProjects = [
         stack: 'React.js, React-Router, Redux, RTK Thunk, RTK Query',
     },
 ];
+
+export const expirience1 = {
+    company: 'Hostpro',
+    country: 'Ukraine',
+    position: 'Frontend Web Developer',
+    period: 'From April 19, 2021 up to now (full time)',
+    duties: [
+        {
+            id: 'd1',
+            text: 'Support of existing projects'
+        },
+        {
+            id: 'd2',
+            text: 'Development of new projects'
+        },
+        {
+            id: 'd3',
+            text: 'Estimating the terms and cost of tasks'
+        },
+        {
+            id: 'd4',
+            text: 'Working with a team on international and foreign projects, developing websites for growing businesses'
+        },
+    ],
+    description: '',
+};
+
+export const expirience2 = {
+    company: 'Glivera Team',
+    country: 'Ukraine',
+    position: 'Frontend Wordperss Developer',
+    period: 'From April, 2023 up to now (part-time, remote)',
+    duties: [
+        {
+            id: 'd1',
+            text: 'Pixel perfect frontend development'
+        },
+        {
+            id: 'd2',
+            text: 'Transfer of sites of other companies to the WordPress base'
+        },
+        {
+            id: 'd3',
+            text: 'Creation of promotional interactive pages'
+        },
+    ],
+    description: '',
+};

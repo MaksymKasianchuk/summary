@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const MainInfoWrap = styled.div`
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     &>span{
         display: block;
         font-size: 16px;
@@ -19,8 +19,11 @@ export const MainInfoWrap = styled.div`
         color: ${props => props.theme.colors.textColor};
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
-        margin-top: 25px;
+        line-height: 1.4;
+        margin-top: 10px;
+        &:first-of-type{
+            margin-top: 25px;
+        }
     }
     @media screen and (max-width: 768px) {
         margin-bottom: 30px;
