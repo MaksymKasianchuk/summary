@@ -1,23 +1,27 @@
 export const techSkils = [
     { name: 'HTML5',            id: 't1'},
-    { name: 'CSS3',             id: 't2'},
-    { name: 'SCSS',             id: 't3'},
-    { name: 'GIT',              id: 't4'},
-    { name: 'WebPack',          id: 't5'},
-    { name: 'Gulp',             id: 't6'},
-    { name: 'JavaScript',       id: 't7'},
-    { name: 'jQuery',           id: 't8'},
-    { name: 'PHP',              id: 't9'},
-    { name: 'WordPress',        id: 't10'},
-    { name: 'React.js',         id: 't11'},
-    { name: 'Redux',            id: 't12'},
-    { name: 'RTK Thunk',        id: 't13'},
-    { name: 'RTK Query',        id: 't14'},
-    { name: 'Emotion React',    id: 't15'},
-    { name: 'Formik with Yup',  id: 't16'},
-    { name: 'TypeScript',       id: 't17'},
-    { name: 'REST',             id: 't18'},
-    { name: 'SOLID',            id: 't19'},
+    { name: 'Pug',              id: 't2'},
+    { name: 'CSS3',             id: 't3'},
+    { name: 'SCSS',             id: 't4'},
+    { name: 'GIT',              id: 't5'},
+    { name: 'WebPack',          id: 't6'},
+    { name: 'Gulp',             id: 't7'},
+    { name: 'JavaScript',       id: 't8'},
+    { name: 'jQuery',           id: 't9'},
+    { name: 'PHP',              id: 't10'},
+    { name: 'WordPress',        id: 't11'},
+    { name: 'Unison WP',        id: 't12'},
+    { name: 'ACF WP',           id: 't13'},
+    { name: 'Gutenberg WP',     id: 't14'},
+    { name: 'React.js',         id: 't15'},
+    { name: 'Redux',            id: 't16'},
+    { name: 'RTK Thunk',        id: 't17'},
+    { name: 'RTK Query',        id: 't18'},
+    { name: 'Emotion React',    id: 't19'},
+    { name: 'Formik with Yup',  id: 't20'},
+    { name: 'TypeScript',       id: 't21'},
+    { name: 'REST',             id: 't22'},
+    { name: 'SOLID',            id: 't23'},
 ];
 
 export const softSkils = [
@@ -34,7 +38,7 @@ export const name = 'Kasianchuk Maksym';
 export const aboutMe = [
     {
         id: 'p1',
-        txt: `A little info about me. I am 24 years old, I have been working at Hostpro company for three years as a front-end developer. During this time, I managed to significantly improve the company\'s commercial sites. I took part in the development of many useful features that not only added useful functionality for customers, but also gave our company advantages over competitors.`, 
+        txt: `A little info about me. I am 24 years old, I have been working at Hostpro company for three years as a front-end developer. During this time, I managed to significantly improve the company's commercial sites. I took part in the development of many useful features that not only added useful functionality for customers, but also gave our company advantages over competitors.`, 
     },
     {
         id: 'p2',
@@ -50,7 +54,7 @@ export const aboutMe = [
     },
     {
         id: 'p5',
-        txt: `I am glad that you are viewing my resume) Glory to Ukraine!`, 
+        txt: `I am glad that you are viewing my summary) Glory to Ukraine!`, 
     },
 ];
 
@@ -158,7 +162,7 @@ export const educProjects = [
 export const expirience1 = {
     company: 'Hostpro',
     country: 'Ukraine',
-    position: 'Frontend Web Developer',
+    position: 'Frontend Web Developer at',
     period: 'From April 19, 2021 up to now (full time)',
     duties: [
         {
@@ -171,11 +175,7 @@ export const expirience1 = {
         },
         {
             id: 'd3',
-            text: 'Estimating the terms and cost of tasks'
-        },
-        {
-            id: 'd4',
-            text: 'Working with a team on international and foreign projects, developing websites for growing businesses'
+            text: 'Creation of promotional interactive pages'
         },
     ],
     description: '',
@@ -184,7 +184,7 @@ export const expirience1 = {
 export const expirience2 = {
     company: 'Glivera Team',
     country: 'Ukraine',
-    position: 'Frontend Wordperss Developer',
+    position: 'Frontend Wordperss Developer at',
     period: 'From April, 2023 up to now (part-time, remote)',
     duties: [
         {
@@ -197,7 +197,11 @@ export const expirience2 = {
         },
         {
             id: 'd3',
-            text: 'Creation of promotional interactive pages'
+            text: 'Estimating the terms and cost of tasks'
+        },
+        {
+            id: 'd4',
+            text: 'Working with a team on international and foreign projects, developing websites for growing businesses'
         },
     ],
     description: '',

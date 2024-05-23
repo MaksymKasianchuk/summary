@@ -19,7 +19,7 @@ export const ProfTitle = styled.h3`
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    margin: 10px 0;
+    margin: 20px 0 10px 0;
     color: ${props => props.theme.colors.textColor};
 `;
 
