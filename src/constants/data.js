@@ -46,7 +46,7 @@ export const aboutMe = [
     },
     {
         id: 'p3',
-        txt: `It is worth noting that I got acquainted with React, Redux Toolkit, RTK Query and Async Thunk and TypeScript, React Native, Jest technologies at GoIT training courses and at the moment I am interested in finding a job as a Frontend React Developer.`, 
+        txt: `It is worth noting that I learned the basics of React, Redux Toolkit, RTK Query and Async Thunk and TypeScript, React Native, Jest technologies at GoIT training courses and at the moment I am interested in finding a job as a Frontend React Developer.`, 
     },
     {
         id: 'p4',
