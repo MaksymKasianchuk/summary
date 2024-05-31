@@ -1,3 +1,13 @@
+let now = new Date();
+let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+let dob = new Date(2000, 5, 19);
+let dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
+let age;
+age = today.getFullYear() - dob.getFullYear();
+if (today < dobnow) {
+  age = age - 1;
+}
+
 export const techSkils = [
     { name: 'HTML5',            id: 't1'},
     { name: 'Pug',              id: 't2'},
@@ -38,7 +48,7 @@ export const name = 'Kasianchuk Maksym';
 export const aboutMe = [
     {
         id: 'p1',
-        txt: `A little info about me. I am 24 years old, I have been working at Hostpro company for three years as a front-end developer. During this time, I managed to significantly improve the company's commercial sites. I took part in the development of many useful features that not only added useful functionality for customers, but also gave our company advantages over competitors.`, 
+        txt: `A little info about me. I am ${age} years old, I have been working at Hostpro company for three years as a front-end developer. During this time, I managed to significantly improve the company's commercial sites. I took part in the development of many useful features that not only added useful functionality for customers, but also gave our company advantages over competitors.`, 
     },
     {
         id: 'p2',

@@ -19,7 +19,7 @@ export const Sidebar = styled.aside`
     padding: 0 0 90px 0;
     @media screen and (max-width: 992px) {
         & img{
-            width: 300px;
+            width: 100%;
             height: auto;
         }
     }
